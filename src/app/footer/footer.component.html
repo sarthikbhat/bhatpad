@@ -1,0 +1,21 @@
+<footer class="footer">
+    <div class="LineAndCol">
+        Line {{lineNumber}}, Col {{columnNumber}}
+    </div>
+    <div class="rightSide">
+        <div style="display: flex;cursor: pointer;"
+            [matTooltip]="currentTheme.charAt(0).toUpperCase()+currentTheme.slice(1,currentTheme.length) + ' theme'">
+            <mat-icon [fontIcon]="getIcon"></mat-icon>
+        </div>
+
+        <div class="" matTooltip="Zoom">
+            100%
+        </div>
+        <div class="">
+            Windows (CLRF)
+        </div>
+        <div class="">
+            ANSI
+        </div>
+    </div>
+</footer>

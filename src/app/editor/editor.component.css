@@ -1,0 +1,24 @@
+textarea {
+    background: transparent;
+    outline: none;
+    border: none;
+    resize: none;
+    min-height:88vh;
+    max-height: 92vh;
+    color: inherit;
+    font-family: "Roboto";
+    font-size: inherit;
+    width: 99%;
+    /* margin: 1%; */
+    padding: 1.2% 0.5%;
+}
+
+textarea {
+    height: 150px;
+    /* overflow: scroll; */
+    -ms-overflow-style: none;
+    scrollbar-width: 1px;
+    /* scrollba */
+    font-size: 90%;
+}
+
